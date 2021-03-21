@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        app:srcCompat="@drawable/pp"/>
+
+    <TextView
+        android:id="@+id/etProfilSaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="Profil Saya"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/etNIM"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="NIM : 00000026698"
+        android:layout_marginTop="10sp"/>
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="Nama : Kevin"/>
+
+    <TextView
+        android:id="@+id/etKelas"
+        android:layout_width="136dp"
+        android:layout_height="28dp"
+        android:text="Kelas : EL"/>
+
+    <TextView
+        android:id="@+id/etRef"
+        android:layout_width="74dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10sp"
+        android:text="Referensi :"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:autoLink="web"
+        android:text="https://www.youtube.com/watch?v=lF5m4o_CuNg&amp;t=22s"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:autoLink="web"
+        android:layout_marginTop="10sp"
+        android:text="https://www.youtube.com/watch?v=prxqc-B1h1w&amp;list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ&amp;index=14"/>
+</LinearLayout>
